@@ -1,16 +1,17 @@
 # BURP
 ## An XTRF Plugin
-### Current version: `0.5`
+### Current version: `0.6`
 ### Browsers supported:
-• Chrome `79.0`
+• Chrome `88.0`
 
 • Brave `1.2`
 
-• Firefox `72.0`
+• Firefox `85.0`
 
 ### Description:
 ### Version history:
 ```
+0.6     Improved DOM selectors
 0.5     Specification Documents created via Jira will have the Subject, Customer and XTRF Version fields filled out automatically
         Links from the Go To menu should now work properly on all instances
         Positions from the Go To menu are now sorted alphabetically
