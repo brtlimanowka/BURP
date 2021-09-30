@@ -1,16 +1,18 @@
 # BURP
 ## An XTRF Plugin
-### Current version: `0.5`
+### Current version: `0.7`
 ### Browsers supported:
-• Chrome `79.0`
+• Chrome `92.0`
 
-• Brave `1.2`
+• Brave `1.28`
 
-• Firefox `72.0`
+• Firefox `91.0`
 
 ### Description:
 ### Version history:
 ```
+0.7     Added buttons for adding Story and Task to Epic
+0.6     Improved DOM selectors
 0.5     Specification Documents created via Jira will have the Subject, Customer and XTRF Version fields filled out automatically
         Links from the Go To menu should now work properly on all instances
         Positions from the Go To menu are now sorted alphabetically

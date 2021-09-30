@@ -2,7 +2,7 @@
 
 	"manifest_version": 2,
 	"name": "BURP",
-	"version": "0.5",
+	"version": "0.7",
 	
 	"description": "Productivity utilities for XTRF",
 	
@@ -15,7 +15,7 @@
 			"48": "icons/48.png",
 			"96": "icons/96.png"
 		},
-		"default_title": "BURP 0.5"
+		"default_title": "BURP 0.7"
 	},
 	
 	"content_scripts": [
