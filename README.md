@@ -1,16 +1,16 @@
 # BURP
-## An XTRF Plugin
-### Current version: `0.7`
-### Browsers supported:
-• Chrome `92.0`
 
-• Brave `1.28`
+## XTRF Plugin
 
-• Firefox `91.0`
+### Current version: `0.8`
 
-### Description:
 ### Version history:
+
 ```
+0.8     Fixed disabling macro preview autorefresh
+        Fixed passing XTRF version from Jira to Specification Document
+        Disabled chat auto-popup
+        Updated icon
 0.7     Added buttons for adding Story and Task to Epic
 0.6     Improved DOM selectors
 0.5     Specification Documents created via Jira will have the Subject, Customer and XTRF Version fields filled out automatically
@@ -29,10 +29,4 @@
 0.3.1   Introduced Jira functionality
 0.3     Added logic for item creation
 0.2     Stable beta
-```
-### Current issues:
-```
-```
-### To be added:
-```
 ```

@@ -1,28 +1,30 @@
 {
+  "manifest_version": 2,
+  "name": "BURP",
+  "version": "0.8",
 
-	"manifest_version": 2,
-	"name": "BURP",
-	"version": "0.7",
-	
-	"description": "Productivity utilities for XTRF",
-	
-	"permissions": ["activeTab"],
+  "description": "Productivity utilities for XTRF",
 
-	"browser_action": {
-		"default_icon": {
-			"16": "icons/16.png",
-			"32": "icons/32.png",
-			"48": "icons/48.png",
-			"96": "icons/96.png"
-		},
-		"default_title": "BURP 0.7"
-	},
-	
-	"content_scripts": [
-		{
-			"matches":["*://*/xtrf/*", "https://jira.dev.xtrf.eu/browse/*"],
-			"js": ["content_scripts/class.js", "content_scripts/xtrf.js", "content_scripts/main.js", "content_scripts/conditional.js"]
-		}
-	]
+  "permissions": ["activeTab"],
 
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "96": "icons/96.png"
+    },
+    "default_title": "BURP 0.8"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/xtrf/*", "https://jira.dev.xtrf.eu/browse/*"],
+      "js": [
+        "content_scripts/class.js",
+        "content_scripts/xtrf.js",
+        "content_scripts/main.js"
+      ]
+    }
+  ]
 }
